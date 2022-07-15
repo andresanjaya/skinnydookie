@@ -635,20 +635,24 @@ section.padding-60 {
   top: 25px;
   width: 100%;
   z-index: 1;
+  
 }
 .portfolio-item .details h4 {
   color: #FFF;
   margin: 0 0 4px;
   opacity: 0;
+  background-color: rgba(0,0,0,0.3);
   transform: translateY(30px);
   transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
 }
+
 .portfolio-item .details span {
   font-size: 12px;
   opacity: 0;
   display: block;
   transform: translateY(40px);
   transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  background-color: rgba(0,0,0,0.3);
 }
 .portfolio-item .plus-icon {
   background: #FFF;
@@ -668,6 +672,7 @@ section.padding-60 {
 
 .portfolio-item:hover .mask {
   opacity: 0.9;
+  
 }
 .portfolio-item:hover img {
   -webkit-transform: scale(1);
