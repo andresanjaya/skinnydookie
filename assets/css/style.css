@@ -1607,6 +1607,19 @@ section.padding-60 {
   transform: rotate(-45deg);
 }
 
+.btn-close {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em 0.25em;
+    justify-content: end;
+    color: #000;
+    background: transparent url(../img/download.svg) center/1em auto no-repeat;;
+    border: 0;
+    border-radius: 0.25rem;
+    opacity: .5;
+}
+
 .slick-next:after {
   content: "";
   background: #FFF;
